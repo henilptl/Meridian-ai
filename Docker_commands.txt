@@ -4,7 +4,7 @@ docker build -t meridian-ai .
 docker images meridian-ai
 
 
-
+#Docker
 docker run -d --name meridian -p 8080:8080 --env-file .env meridian-ai
 docker ps
 docker logs meridian
